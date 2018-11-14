@@ -1,0 +1,11 @@
+.WeatherApp {
+  &__weather {
+    display: grid;
+    justify-items: center;
+    background: rgba(255,255,255,.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-align: center;
+  }
+}

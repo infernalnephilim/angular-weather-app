@@ -1,0 +1,14 @@
+$header-font-color: white;
+
+.WeatherApp {
+  &__header {
+    text-align: center;
+    h1{
+      color: $header-font-color;
+    }
+    img {
+      max-height: 30px;
+      margin: 5px;
+    }
+  }
+}

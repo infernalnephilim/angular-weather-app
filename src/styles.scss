@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Niramit');
+$app-font-color: white;
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Niramit", sans-serif;
+  padding: 0;
+  margin: 0;
+  color: $app-font-color;
+}
+app-root{
+  display: grid;
+  grid-row-gap: 50px;
+  grid-template-columns: 100%;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: #2980b9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
