@@ -1,0 +1,7 @@
+<div>
+  <form [formGroup]="form" (ngSubmit)="setLocation()" class="WeatherApp__form">
+    <input formControlName="city" name="city" type="text" value={{location.city}} placeholder="City..." required/>
+    <input formControlName="country" name="country" type="text" value={{location.country}} placeholder="Country..." required/>
+    <button [disabled]="!form.valid">Show weather</button>
+  </form>
+</div>

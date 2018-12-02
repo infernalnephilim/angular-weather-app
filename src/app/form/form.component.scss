@@ -1,0 +1,38 @@
+::placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+input{
+  position: relative;
+  background: rgba(255,255,255,0.1);
+  padding: 10px 20px;
+  border: none;
+  &:first-of-type{
+    border-radius: 5px 0px 0px 5px;
+  }
+
+}
+button{
+  background: rgba(255,255,255,0.1);
+  border-radius: 0px 5px 5px 0px;
+  padding: 10px 20px;
+  border: none;
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s;
+  -ms-transition: all ease .5s;
+  -o-transition: all ease .5s;
+  transition: all ease .5s;
+  &:hover{
+    background: #145b86;
+    cursor: pointer;
+  }
+}
